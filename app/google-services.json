@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "466814344447",
+    "firebase_url": "https://hackvsit-ebd61.firebaseio.com",
+    "project_id": "hackvsit-ebd61",
+    "storage_bucket": "hackvsit-ebd61.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466814344447:android:aedc4f09b1efbb67e140ca",
+        "android_client_info": {
+          "package_name": "com.vikaspandey121.hackvsit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "466814344447-mqv01tevl6phf2ejoqpchvgua9smtch7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqXhGPJ7mk-WuY1h4hyZHylZDRYcCjDmg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "466814344447-mqv01tevl6phf2ejoqpchvgua9smtch7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
