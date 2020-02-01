@@ -9,10 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <activity android:name=".game_dashboard"></activity>
+        <activity android:name=".gameQuiz"></activity>
+        <activity android:name=".game_dashboard" />
         <activity android:name=".game" />
-    <activity android:name=".ReportMenuActivity"></activity>
+        <activity android:name=".ReportMenuActivity" />
         <activity android:name=".MissingPersonMenuActivity" />
         <activity android:name=".ContactsActvity" />
         <activity android:name=".AddReportActivity" />
