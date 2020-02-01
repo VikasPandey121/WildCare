@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.graphics.drawable.ColorDrawable;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.view.View;
@@ -106,7 +107,7 @@ public class gameQuiz extends AppCompatActivity {
             //Now user is out of time
             public void onFinish() {
                 //We will navigate him to the time up activity using below method
-               // timeUp();
+                timeUp();
             }
         }.start();
 
@@ -235,6 +236,8 @@ public class gameQuiz extends AppCompatActivity {
     //This method is called when user ans is wrong
     //this method will navigate user to the activity PlayAgain
     public void gameLostPlayAgain() {
+        final MediaPlayer lossedgame = MediaPlayer.create(this,R.raw.lossingsound);
+        lossedgame.start();
         Intent intent = new Intent(this, PlayAgain.class);
         startActivity(intent);
         finish();
@@ -242,11 +245,11 @@ public class gameQuiz extends AppCompatActivity {
 
     //This method is called when time is up
     //this method will navigate user to the activity Time_Up
-   /* public void timeUp() {
+    public void timeUp() {
         Intent intent = new Intent(this, Time_Up.class);
         startActivity(intent);
         finish();
-    }*/
+    }
 
     //If user press home button and come in the game from memory then this
     //method will continue the timer from the previous time it left
@@ -281,6 +284,8 @@ public class gameQuiz extends AppCompatActivity {
             ColorDrawable colorDrawable = new ColorDrawable(Color.TRANSPARENT);
             dialogCorrect.getWindow().setBackgroundDrawable(colorDrawable);
         }
+        final MediaPlayer winningSound = MediaPlayer.create(this,R.raw.winning);
+        winningSound.start();
         dialogCorrect.setContentView(R.layout.dialog_correct);
         dialogCorrect.setCancelable(false);
         dialogCorrect.show();
