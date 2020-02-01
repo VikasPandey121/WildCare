@@ -60,13 +60,9 @@ class TriviaQuizHelper extends SQLiteOpenHelper {
     void allQuestion() {
         ArrayList<TriviaQuestion> arraylist = new ArrayList<>();
 
-        arraylist.add(new TriviaQuestion("What is the aim of the Animal Welfare Act?", "To help animals in need", "To ensure animals lead healthy and happy lives", "To provide support for pet owners", "To get people into trouble", "To ensure animals lead healthy and happy lives"));
+        arraylist.add(new TriviaQuestion("Which of the following gas is resposible for global warming?", "N2", "H2", "CO2", "Ethane", "CO2"));
 
         arraylist.add(new TriviaQuestion("The Animal welfare Act was passed in which year?", "2006", "1997", "2000", "2007", "2006"));
-
-        arraylist.add(new TriviaQuestion("When was the Project Tiger launched?", "1973", "1974", "1975", "1976", "1973"));
-
-        arraylist.add(new TriviaQuestion("What does the term 'MIKE' stands for?", "Monitoring of Illegal Killing in Europe", " Monitoring of Illegal Killing of Elephants", "Monitoring of Illegal Killing of Eagle", "Monitoring of Illegal Killing of Endangered Species", " Monitoring of Illegal Killing of Elephants"));
 
         
 

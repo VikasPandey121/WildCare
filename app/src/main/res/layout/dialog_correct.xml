@@ -16,14 +16,13 @@
         android:padding="5dp">
 
 
-        <TextView
-            android:id="@+id/correctText"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/correct"
-            android:textColor="@color/green"
-            android:gravity="center"
-            android:textSize="30sp"/>
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="163dp"
+            android:layout_height="252dp"
+            android:layout_weight="1"
+            fbutton:srcCompat="@drawable/cat" />
+
     </LinearLayout>
     <View
 
@@ -38,4 +37,14 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="50dp"></View>
+
+    <TextView
+        android:id="@+id/correctText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/correct"
+        android:textColor="@color/green"
+        android:textSize="30sp" />
+
 </LinearLayout>
