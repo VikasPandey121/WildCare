@@ -41,7 +41,7 @@
             android:layout_height="62dp"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="10dp"
-            android:text="FairCare"
+            android:text="WildCare"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textSize="36sp"
             app:fontFamily="@font/baloo"
