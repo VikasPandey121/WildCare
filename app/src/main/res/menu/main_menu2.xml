@@ -12,7 +12,7 @@
             android:icon="@drawable/about_us"/>
         <item
             android:id="@+id/nav_inventory"
-            android:title="Inventory Details"
+            android:title="NGO Details"
             android:icon="@drawable/inventory_details"/>
         <item
             android:id="@+id/nav_logout"

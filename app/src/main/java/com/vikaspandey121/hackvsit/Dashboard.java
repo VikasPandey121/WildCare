@@ -17,6 +17,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.material.navigation.NavigationView;
+import com.google.firebase.auth.FirebaseAuth;
 
 public class Dashboard extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener  {
     DrawerLayout drawerLayout;
@@ -27,13 +28,15 @@ public class Dashboard extends AppCompatActivity implements NavigationView.OnNav
 
     ImageView game;
 
-    ImageView imageView3;
+    ImageView imageView3,imageView1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
+        imageView1=findViewById(R.id.imageView2);
 
+        imageView3=findViewById(R.id.imageView4);
         drawerLayout = findViewById(R.id.drawer_layout);
         navigationView = findViewById(R.id.nav_view);
         textView = findViewById(R.id.textView);
@@ -53,11 +56,20 @@ public class Dashboard extends AppCompatActivity implements NavigationView.OnNav
         menu.findItem(R.id.nav_logout).setVisible(false);
 
         //I have to delete this command below this
-        imageView3 = (ImageView) findViewById(R.id.imageView3);
-        imageView3.setOnClickListener(new View.OnClickListener() {
+       // imageView3 = (ImageView) findViewById(R.id.imageView3);
+        imageView1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Dashboard.this, ReportCrimeActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        imageView3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Dashboard.this,game.class);
                 startActivity(intent);
                 finish();
             }
@@ -105,7 +117,11 @@ public class Dashboard extends AppCompatActivity implements NavigationView.OnNav
 
 
             case R.id.nav_logout:
-                menu.findItem(R.id.nav_logout).setVisible(false);
+                FirebaseAuth.getInstance().signOut();
+                Intent intent = new Intent(Dashboard.this,loginActivity.class);
+                startActivity(intent);
+                finish();
+
                 break;
 
 

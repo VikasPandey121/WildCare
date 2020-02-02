@@ -30,7 +30,7 @@ public class loginActivity extends AppCompatActivity {
     TextInputLayout username,password;
     String email,pass;
     FirebaseAuth mAuth;
-
+    private FirebaseAuth.AuthStateListener mAuthStatelisterner;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,6 +44,23 @@ public class loginActivity extends AppCompatActivity {
         username= findViewById(R.id.signupusername);
         password= findViewById(R.id.signuppassword);
         login_btn= findViewById(R.id.login);
+
+        mAuthStatelisterner = new FirebaseAuth.AuthStateListener() {
+
+            @Override
+            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
+                FirebaseUser mfirebaseuser=  firebaseAuth.getCurrentUser();
+                if(mfirebaseuser != null){
+                    Toast.makeText(loginActivity.this, "You are logged in", Toast.LENGTH_SHORT).show();
+                    Intent i =new Intent(loginActivity.this,Dashboard.class);
+                    startActivity(i);
+                }
+                else {
+                    Toast.makeText(loginActivity.this, "Please Login", Toast.LENGTH_SHORT).show();
+                }
+            }
+        };
+
        login_btn.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View v) {
@@ -87,7 +104,14 @@ public class loginActivity extends AppCompatActivity {
                 }
             }
         });
+
+    }
+    @Override
+    protected void onStart() {
+        super.onStart();
+        mAuth.addAuthStateListener(mAuthStatelisterner);
+    }
     }
 
 
-}
+

@@ -6,24 +6,18 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
-import android.widget.LinearLayout;
 
 import java.util.ArrayList;
 
-public class game extends AppCompatActivity {
-
-    //Initialize Variable
-
+public class animal extends AppCompatActivity {
     RecyclerView recycler_view;
 
     ArrayList<MainModel> mainModels;
     MainAdapter mainAdapter;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_game);
-
+        setContentView(R.layout.activity_animal);
         //Assign Variable
         recycler_view= findViewById(R.id.recycler_view);
 
@@ -39,21 +33,21 @@ public class game extends AppCompatActivity {
         mainModels = new ArrayList<>();
         for(int i=0;i<langLogo.length;i++)
         {
-           MainModel model = new MainModel(langLogo[i],langName[i]);
-           mainModels.add(model);
+            MainModel model = new MainModel(langLogo[i],langName[i]);
+            mainModels.add(model);
         }
 
         //Design Horizontal Layout
 
         LinearLayoutManager layoutManager =new LinearLayoutManager(
-                game.this,LinearLayoutManager.HORIZONTAL,false
+                animal.this,LinearLayoutManager.HORIZONTAL,false
         );
 
         recycler_view.setLayoutManager(layoutManager);
         recycler_view.setItemAnimator(new DefaultItemAnimator());
 
         //Initialize MainAdapter
-        mainAdapter = new MainAdapter(game.this,mainModels);
+        mainAdapter = new MainAdapter(animal.this,mainModels);
 
         recycler_view.setAdapter(mainAdapter);
     }
