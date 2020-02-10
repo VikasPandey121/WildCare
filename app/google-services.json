@@ -1,34 +1,42 @@
 {
   "project_info": {
-    "project_number": "466814344447",
-    "firebase_url": "https://hackvsit-ebd61.firebaseio.com",
-    "project_id": "hackvsit-ebd61",
-    "storage_bucket": "hackvsit-ebd61.appspot.com"
+    "project_number": "77048160263",
+    "firebase_url": "https://wildcare-9f512.firebaseio.com",
+    "project_id": "wildcare-9f512",
+    "storage_bucket": "wildcare-9f512.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:466814344447:android:aedc4f09b1efbb67e140ca",
+        "mobilesdk_app_id": "1:77048160263:android:daf1aa5b19d7c6ea1bcaa2",
         "android_client_info": {
           "package_name": "com.vikaspandey121.hackvsit"
         }
       },
       "oauth_client": [
         {
-          "client_id": "466814344447-mqv01tevl6phf2ejoqpchvgua9smtch7.apps.googleusercontent.com",
+          "client_id": "77048160263-kpue258u8a425cgl29hpl4mchff52squ.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vikaspandey121.hackvsit",
+            "certificate_hash": "1170ce1f974dad592706d14fb386db96df29f1c3"
+          }
+        },
+        {
+          "client_id": "77048160263-fcel8e8k6ulugcaas9m92mpp97o1s8d2.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCqXhGPJ7mk-WuY1h4hyZHylZDRYcCjDmg"
+          "current_key": "AIzaSyDHhSaefR3C-DjM0_s7n8nCtp96jXOL_tk"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "466814344447-mqv01tevl6phf2ejoqpchvgua9smtch7.apps.googleusercontent.com",
+              "client_id": "77048160263-fcel8e8k6ulugcaas9m92mpp97o1s8d2.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
