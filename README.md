@@ -48,7 +48,9 @@ gitter Channel : https://gitter.im/ProGection-CBPGEC/WildCare
 
 <br>
 
-## Author
+## About the Developer
+
+Vikas Kumar is an Android Developer who loves to develop and explore with voice and Artificial Intelligence (AI) based technology which is going to be the future of our day to day general activities. He is very keen to support young minds in their path of developing impressive technology. It is his aim to combine his passion for learning and software development skills to continue building personalized learning products for people.
 
 ### [Vikas Kumar](https://github.com/VikasPandey121) ❤
 
