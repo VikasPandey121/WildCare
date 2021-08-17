@@ -1,22 +1,48 @@
-# WildCare
 
-This Projects aware our users about animal care through an interactive game and gives security to Humans and animals by sharing their real time location to the enrolled trustworthy contacts.
+<p align="center">
+  <a href=" https://www.hackerrank.com/domains/tutorials/30-days-of-code">
+   <img src="https://raw.githubusercontent.com/VikasPandey121/WildCare/master/snapshots/animal-care.png" alt="Logo" height="200" width="200"></a>
+  </a>
+
+  <h3 align="center">WildCare</h3>
+
+  <p align="center">
+    Repository for WildCare
+    <br />
+    <a href="https://github.com/VikasPandey121/WildCare"><strong>View the Repo</strong></a>
+    <br />
+    <br />
+    This Projects aware our users about animal care through an interactive game and gives security to Humans and animals by sharing their real time location to the enrolled trustworthy contacts.
+    <br />
+    <a href="https://github.com/VikasPandey121/WildCare/blob/master/CONTRIBUTING.md">How to Contribute</a>
+    ·
+    <a href="https://github.com/VikasPandey121/WildCare/issues">Contribute Here</a>
+    ·
+    <a href="https://github.com/VikasPandey121/WildCare/blob/master/CODE_OF_CONDUCT.md">Code of Conduct</a>
+  </p>
+</p>
+
+
+> Note: To learn how to contribute in to open source click the mentioned button bellow.
+<p align="center">
+<a href="https://www.youtube.com/watch?v=LidH-VCDFAQ&t=36s" target="_blank">
+<img src="https://raw.githubusercontent.com/VikasPandey121/WildCare/master/snapshots/YouTube-Logo.png" alt="Get it on Google Play" height="90"/></a>
+</p>
 
 
 <hr>
 
 <br>
 
-[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://forthebadge.com)
+
+# Features ✨
+1. Sents Alert message to the concern people with the current location.
+2. Gives security to humans and animals.
+3. Awares the users why they should not harm our natural habitant.
+4. Make users feel connected with the other contributors and NGOs along with the concern authorities.
+
 
 <br>
-
-It solves various problem like :
-
-* It gives security to humans and animals.
-* It awares the users why they should not harm our natural habitant.
-* It lets users connect with the other contributors and NGOs along with the concern authorities.
 
 <br>
 
