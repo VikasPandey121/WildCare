@@ -6,14 +6,16 @@
 
   <h3 align="center">WildCare</h3>
 
-  <p align="center">
+
+
+<p align="center">
     Repository for WildCare
     <br />
     <a href="https://github.com/VikasPandey121/WildCare"><strong>View the Repo</strong></a>
     <br />
     <br />
-  
     This Project teaches users about animal care through an interactive game and provides security to humans and animals by sharing their real time location to the enrolled trustworthy contacts.
+    <br />
     <br />
     <a href="https://github.com/VikasPandey121/WildCare/blob/master/CONTRIBUTING.md">How to Contribute</a>
     ·
