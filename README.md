@@ -12,6 +12,7 @@
     <a href="https://github.com/VikasPandey121/WildCare"><strong>View the Repo</strong></a>
     <br />
     <br />
+  
     This Project teaches users about animal care through an interactive game and provides security to humans and animals by sharing their real time location to the enrolled trustworthy contacts.
     <br />
     <a href="https://github.com/VikasPandey121/WildCare/blob/master/CONTRIBUTING.md">How to Contribute</a>
@@ -23,7 +24,9 @@
 </p>
 
 
-> Note: To learn how to contribute to open source click the "How to Contribute" button above.
+
+> Note: To learn how to contribute to open source click the "YouTube" button bellow.
+
 <p align="center">
 <a href="https://www.youtube.com/watch?v=LidH-VCDFAQ&t=36s" target="_blank">
 <img src="https://raw.githubusercontent.com/VikasPandey121/WildCare/master/snapshots/YouTube-Logo.png" alt="Get it on Google Play" height="90"/></a>
@@ -36,10 +39,12 @@
 
 
 # Features ✨
+
 1. Sends an alert message to the concerned people with the current location.
 2. Gives security to humans and animals.
 3. Teaches the user about why they should not harm our natural habitat.
 4. Helps users connect with other contributors and NGOs, along with the concerned authorities.
+
 
 
 <br>
@@ -54,6 +59,7 @@
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/CeLp2q3Z1AI/0.jpg)](https://www.youtube.com/watch?v=CeLp2q3Z1AI)
 
 Alt video description: A 52-second visual overview of the app (no audio). Shows use of the login screen, a main dashboard screen with options for "Missing Animal Report", "NGO Details", "Endangered Animals", and "Play Game". Also shows examples from the game, including a number of questions to answer. Shows use of reporting portion of the app for missing animals or people and the setup of emergency contacts. 
+
 <br>
 
 ## Steps to run
