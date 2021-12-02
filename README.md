@@ -4,7 +4,7 @@
    <img src="https://raw.githubusercontent.com/VikasPandey121/WildCare/master/snapshots/animal-care.png" alt="Logo" height="200" width="200"></a>
   </a>
 
-  <h3 align="center">WildCare</h3>
+  <h1 align="center">WildCare</h1>
 
 
 
@@ -13,6 +13,8 @@
     <br />
     <a href="https://github.com/VikasPandey121/WildCare"><strong>View the Repo</strong></a>
     <br />
+    <br />
+    <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
     <br />
     This Project teaches users about animal care through an interactive game and provides security to humans and animals by sharing their real time location to the enrolled trustworthy contacts.
     <br />
@@ -27,7 +29,8 @@
 
 
 
-> Note: To learn how to contribute to open source click the "YouTube" button bellow.
+> Note: To learn how to contribute to open source click the "YouTube" button below.  
+
 
 <p align="center">
 <a href="https://www.youtube.com/watch?v=LidH-VCDFAQ&t=36s" target="_blank">
@@ -37,34 +40,37 @@
 
 <hr>
 
-<br>
-
 
 # Features ✨
 
-1. Sends an alert message to the concerned people with the current location.
-2. Gives security to humans and animals.
-3. Teaches the user about why they should not harm our natural habitat.
-4. Helps users connect with other contributors and NGOs, along with the concerned authorities.
-
-
-
-<br>
+1. Sends an alert message to the concerned people with the current location during emergency.
+2. Provides a secured and trustworthy environment for humans and animals in need.
+3. Enlightens user about why they should not harm our natural habitat.
+4. Boosts connectivity by helping users to get in touch with other contributors, NGOs and the concerned authorities.
+5. Interactive quizzes to play and learn at the same time.
 
 <br>
 
+# Tools used 📊
+- WildCare has been coded in ![](https://img.shields.io/badge/JAVA-informational?style=flat&logo=java&logoColor=white&color=2bbc8a) with designs and flows created on ![](https://img.shields.io/badge/XML-informational?style=flat&logo=XML&logoColor=white&color=2bbc8a).
+- Uses ![](https://img.shields.io/badge/FIREBASE-informational?style=flat&logo=firebase&logoColor=white&color=2bbc8a) as the database.
 
-## Tools used
-* Database - Firebase
+<br>
 
-## Sample Video of this project
+# Screenshots 🖼️
+
+<img src="https://github.com/aakash232/WildCare/blob/master/snapshots/screenshot1.jpeg" width="150px" height="320px">    <img src="https://github.com/aakash232/WildCare/blob/master/snapshots/screenshot2.jpeg" width="150px" height="320px">    <img src="https://github.com/aakash232/WildCare/blob/master/snapshots/screenshot3.jpeg" width="150px" height="320px">    <img src="https://github.com/aakash232/WildCare/blob/master/snapshots/screenshot4.jpeg" width="150px" height="320px">    <img src="https://github.com/aakash232/WildCare/blob/master/snapshots/screenshot5.jpeg" width="150px" height="320px">
+
+<br>
+
+# Sample Video 🤳
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/CeLp2q3Z1AI/0.jpg)](https://www.youtube.com/watch?v=CeLp2q3Z1AI)
 
-Alt video description: A 52-second visual overview of the app (no audio). Shows use of the login screen, a main dashboard screen with options for "Missing Animal Report", "NGO Details", "Endangered Animals", and "Play Game". Also shows examples from the game, including a number of questions to answer. Shows use of reporting portion of the app for missing animals or people and the setup of emergency contacts. 
+Video description: A 52-second visual overview of the app (no audio). Shows use of the login screen, a main dashboard screen with options for "Missing Animal Report", "NGO Details", "Endangered Animals", and "Play Game". Displays the interactive gaming and learning experience in form of a quiz. Shows use of reporting portion of the app for missing animals or people. Displays how to set up emergency contacts and send notifications in one go. 
 
 <br>
 
-## Steps to run
+# Steps to run
 
 * Fork the repository
 
@@ -72,8 +78,9 @@ Alt video description: A 52-second visual overview of the app (no audio). Shows 
   `git clone https://github.com/<username>/WildCare.git`   
   where \< username \> is your username in your bash
 
+<br>
 
-## Contributions 
+# Contributions 💞
 
 * Contributors are welcome--please comment on the issue before working on it.
 * Create pull requests, submit bugs, suggest new features.
@@ -83,20 +90,20 @@ Alt video description: A 52-second visual overview of the app (no audio). Shows 
 
 <br>
 
-## About the Developer
+# About the Developer
 
 Vikas Kumar is an Android developer who loves to work with and explore voice and Artificial Intelligence (AI) based technology, which is going to be the future of our general day-to-day activities. He is very keen to support young minds in their path to developing impressive technologies. It is his aim to combine his passion for learning and for software development skills by continuing building personalized learning products for people.
 
 ### [Vikas Kumar](https://github.com/VikasPandey121) ❤
 
-[<img src="https://image.flaticon.com/icons/svg/185/185964.svg" width="35" padding="10">](https://linkedin.com/in/VikasPandey121/)
-[<img src="https://image.flaticon.com/icons/svg/185/185981.svg" width="35" padding="10">](https://www.facebook.com/VikasPandey827)
-[<img src="https://image.flaticon.com/icons/svg/185/185985.svg" width="35" padding="10">](https://www.instagram.com/VikasPandey121/)
+[<img src="https://github.com/aakash232/WildCare/blob/master/snapshots/lkd.png?raw=true" width="35" padding="10">](https://linkedin.com/in/VikasPandey121/)
+[<img src="https://github.com/aakash232/WildCare/blob/master/snapshots/fb.png?raw=true" width="35" padding="10">](https://www.facebook.com/VikasPandey827)
+[<img src="https://github.com/aakash232/WildCare/blob/master/snapshots/insta.png" width="35" padding="10">](https://www.instagram.com/VikasPandey121/)
 
 <br>
 
 
-## License
+# License
 
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](#)
 
